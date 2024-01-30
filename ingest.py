@@ -27,7 +27,7 @@ from langchain.docstore.document import Document
 
 #added the content path due to colab
 #if not load_dotenv():
-if not load_dotenv("/content/.env"):
+if not load_dotenv("/content/privateGPT/example.env"):
     print("Could not load .env file or it is empty. Please check if it exists and is readable.")
     exit(1)
 
